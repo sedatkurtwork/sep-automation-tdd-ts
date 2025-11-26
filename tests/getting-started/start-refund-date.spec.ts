@@ -3,7 +3,7 @@ import { StartApplicationPage } from "../../pages/StartApplicationPage";
 import { productInfo } from "../../utilities/qa-data-reader";
 
 // create an empty test group.
-test.describe("Progrm start date and refund date", () => {
+test.describe("Program start date and refund date @sep11", () => {
 
   let starteAppPage: StartApplicationPage;
 
