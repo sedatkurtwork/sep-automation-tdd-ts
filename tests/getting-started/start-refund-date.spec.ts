@@ -5,15 +5,15 @@ import { productInfo } from "../../utilities/qa-data-reader";
 // create an empty test group.
 test.describe("Program start date and refund date @sep11", () => {
 
-  let starteAppPage: StartApplicationPage;
+  let startAppPage: StartApplicationPage;
 
   test.beforeEach(async ({ page }) => {
-    starteAppPage = new StartApplicationPage(page);
+    startAppPage = new StartApplicationPage(page);
   });
 
   test("Verify program start date and refund date are displayed", async ({page}) => {
-    await expect(starteAppPage.programStartDate).toBeVisible();
-    await expect(starteAppPage.refundEndDate).toBeVisible();
+    await expect(startAppPage.programStartDate).toBeVisible();
+    await expect(startAppPage.refundEndDate).toBeVisible();
   });
 
   test("Verify the displayed start date and refund date are correct", async ({page}) => {
