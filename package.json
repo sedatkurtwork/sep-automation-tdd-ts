@@ -5,7 +5,7 @@
   "scripts": {
     "tests": "npx playwright test",
     "test:specific": "npx playwright test --grep file-name.spec.ts",
-    "test:tag": "npx playwright test --grep @sep08",
+    "test:tag": "npx playwright test --grep @sep10",
     "report": "npx playwright show-report"
   },
   "keywords": [],
